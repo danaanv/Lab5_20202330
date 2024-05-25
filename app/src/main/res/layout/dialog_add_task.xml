@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/et_task_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Título de la tarea"
+        android:backgroundTint="#5A38FC"/>
+
+    <EditText
+        android:id="@+id/et_task_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Descripción de la tarea"
+        android:backgroundTint="#5A38FC"/>
+
+    <Button
+        android:id="@+id/btn_set_date_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Establecer fecha y hora"
+        android:background="@drawable/boton_redondeado_purpura"
+        app:backgroundTint="@null"/>
+
+</LinearLayout>
